@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+body {
+    background-color: #ffffff; /* 背景色を白に設定 */
+}
+header {
+    position: fixed; /* ヘッダーを固定位置に設定 */
+    top: 0; /* 上部から0pxの位置に設定 */
+    left: 0; /* 左端から0pxの位置に設定 */
+    width: 100%; /* 幅を画面全体に広げる */
+    background-color: #fff; /* 背景色を白に設定（透過されないように） */
+    z-index: 1000; /* 他の要素より前面に表示 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 影をつけて立体感を出す */
+    padding: 10px 0; /* 上下にパディングを追加 */
+}
+.header-info {
+    background-color: #ffffff; /* ヘッダーの背景色も白に */
+    color: #333; /* テキストの色 */
+    padding: 10px 0; /* 上下のパディング */
+    font-family: 'Arial', sans-serif; /* フォントファミリー */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #cccccc; /* 下部に明確な境界線 */
+}
+
+.header-info .icon {
+    display: inline-block;
+    width: 30px; /* アイコンのサイズ */
+    height: 30px;
+    background-size: contain; /* アイコンのサイズ調整 */
+    margin-right: 10px; /* アイコンの右マージン */
+}
+
+.header-info .phone-icon {
+    background-image: url('path_to_phone_icon.png'); /* 電話アイコンのパス */
+}
+
+.header-info .mail-icon {
+    background-image: url('path_to_mail_icon.png'); /* メールアイコンのパス */
+}
+
+.header-info a {
+    color: #006837; /* リンクの色 */
+    text-decoration: none;
+    background-color: #e2f4ea; /* ボタンの背景色（淡い緑） */
+    padding: 5px 15px;
+    border-radius: 5px; /* 角丸 */
+    font-weight: bold;
+}
+
+.header-info a:hover {
+    background-color: #d1e6dc; /* ホバー時の背景色 */
+}
+
+.header-info .hours {
+    font-size: 14px; /* フォントサイズ */
+}
+
+/* フッターのスタイリングを追加 */
+footer {
+    background-color: #ffffff; /* フッターの背景色も白に */
+    border-top: 2px solid #cccccc; /* 上部に明確な境界線 */
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    text-align: center; /* ナビゲーションリンクを中央に配置 */
+    margin: 20px 0; /* 上下のマージンを追加 */
+}
+
+nav ul {
+    list-style: none; /* リストのスタイルを無しに設定 */
+    padding: 0; /* パディングをリセット */
+}
+
+nav ul li {
+    display: inline-block; /* リストアイテムをインラインブロック要素として表示 */
+    margin-right: 10px; /* リストアイテム間の右マージンを設定 */
+}
+
+nav ul li a {
+    text-decoration: none; /* リンクの下線を消す */
+    color: black; /* リンクのテキスト色を黒に設定 */
+    padding: 10px 20px; /* リンクのパディングを設定 */
+    border-radius: 5px; /* ボーダーの角を丸く */
+    background-color: #f0f0f0; /* リンクの背景色 */
+}
+
+nav ul li a:hover {
+    background-color: #ccc; /* リンクの背景色をホバー時に変更 */
+}
+.main {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px; /* 角丸の境界を追加 */
+}
+
+h1, h2 {
+    font-size: 24px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+.testimonial-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.testimonial-card p {
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.more-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 0.85em;
+    float: right; /* リンクを右に寄せる */
+    margin-top: 10px;
+}
+
+.more-link:hover {
+    text-decoration: underline;
+}
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* 中央揃え */
+}
+

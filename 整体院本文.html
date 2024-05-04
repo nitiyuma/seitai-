@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>グッドトリップ整體院</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">グッドトリップ整體院</h1>
+        <div class="header-content">
+            <div class="header-info">
+                <div class="contact-info">
+                    <div class="phone">
+                        <span class="icon phone-icon"></span>
+                        <a href="tel:070-8970-0886">TEL. 070-8970-0886</a>
+                    </div>
+                    <div class="email">
+                        <span class="icon mail-icon"></span>
+                        <a href="https://kanazawa-balance.com/inquiry/">お問い合わせ</a>
+                    </div>
+                </div>
+                <div class="hours">
+                    [営業時間] 10:00-19:00 [営業日] 日・月・火　[定休日] 水・木・金・土
+                </div>            
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">ホーム</a></li>
+                    <li><a href="#">料金表</a></li>
+                    <li><a href="#">各界著名人の推薦文</a></li>
+                    <li><a href="#">施術者紹介</a></li>
+                    <li><a href="#">患者様の声</a></li>
+                    <li><a href="#">コロナウィルス対策</a></li>
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">アクセス</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>整體院の紹介</h2>
+	
+    <img src="スクリーンショット_4-5-2024_93257_.jpeg" alt="グッドトリップ整体院の紹介" class="intro-image">
+            
+        </section>
+        <section class="services">
+            <h2>サービス概要</h2>
+            <p>当院では、患者様一人一人に合わせた個別の施術プランを提供しています。急性の痛みから慢性的な症状まで幅広く対応しております。</p>
+        </section>
+        <section class="testimonials">
+    <h2>お客様からの喜びの声</h2>
+    <div class="testimonial-card">
+        <p>「新型コロナウイルス対策にとても気をつけておられ、安全のため全て、不眠(早朝覚醒)になってしまい長年不便での不眠症を治療してもらったおかげで…」</p>
+        <a href="#" class="more-link">もっと見る ></a>
+    </div>
+    <div class="testimonial-card">
+        <p>「3ヶ月前に足に足の筋肉痛に悩まされていました。病院でも原因ははっきり分からない事が多く薬を処方されることが多い中でを施術してもらい患者さまにも対応して…」</p>
+        <a href="#" class="more-link">もっと見る ></a>
+    </div>
+    <div class="testimonial-card">
+        <p>「いつも見守るお母様になっています! 外科のメンテナンスで定期的に通っています。治療後で調子もよくこれからもどうぞよろしくお願いいたします。オメガメントもありがと…」</p>
+        <a href="#" class="more-link">もっと見る ></a>
+    </div>
+</section>
+
+        <section class="greeting">
+            <h2>院長からのご挨拶</h2>
+            <p>グッドトリップ整體院の院長、坂野智也です。当院では、一人ひとりの患者様に合わせた最適な治療を提供することを心がけています。健康で快適な生活を送っていただけるよう、スタッフ一同、全力を尽くしております。</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>グッドトリップ整体院 © 2024</p>
+        <p>[営業時間] 10:00-19:00 [営業日] 日・月・火　[定休日] 水・木・金・土</p>
+    </footer>
+<script>
+window.onload = function() {
+    var headerHeight = document.querySelector('header').offsetHeight; // ヘッダーの高さを取得
+    document.body.style.paddingTop = headerHeight + 'px'; // bodyのpadding-topをヘッダーの高さに設定
+};
+window.onresize = function() {
+    var headerHeight = document.querySelector('header').offsetHeight; // ウィンドウのサイズ変更時にヘッダーの高さを再取得
+    document.body.style.paddingTop = headerHeight + 'px'; // bodyのpadding-topを更新
+};
+</script>
+
+</body>
+</html>
